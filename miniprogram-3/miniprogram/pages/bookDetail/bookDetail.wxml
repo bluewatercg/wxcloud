@@ -1,0 +1,13 @@
+<van-panel title="{{book.title}}" status="{{book.price}}">
+
+  <van-image
+  width="10rem"
+  height="10rem"
+  fit="contain"
+  src="{{book.image}}"
+/>
+<view><text>{{book.summary}}</text></view>
+</van-panel>
+<van-button data-id="{{_id}}" type="warning" bind:click="update">更新</van-button>
+<van-button data-id="{{_id}}" type="danger" bind:click="delete">删除</van-button>
+ 

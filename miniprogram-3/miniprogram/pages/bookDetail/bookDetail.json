@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-image": "../../vent/image/index",
+    "van-panel": "../../vent/panel/index",
+    "van-row": "../../vent/row/index",
+    "van-col": "../../vent/col/index",
+    "van-button": "../../vent/button/index"
+  }
+}
